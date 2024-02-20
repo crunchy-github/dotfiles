@@ -1,7 +1,20 @@
+My Dotfiles
+
 # Installation
 
-cd dotfiles
-stow -t ~/.config .
+	git clone https://github.com/crunchy-github/dotfiles.git
+	cd dotfiles
+	stow -t ~/ .
+
+
+
+## [starship](https://starship.rs/)
+
+	starship preset pastel-powerline > ~/.config/starship.toml
+
+## Fonts
+
+Fira Code Nerd Font - https://github.com/ryanoasis/nerd-fonts/
 
 ## tmux
 
@@ -14,6 +27,3 @@ https://github.com/tmux-plugins/tpm/blob/master/docs/changing_plugins_install_di
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 cd ~/.tmux/plugins/tpm/bin
 ./install_plugins
-
-
-
