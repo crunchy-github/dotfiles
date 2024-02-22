@@ -22,6 +22,10 @@ set shiftwidth=4
 " Set tab width to 4 columns.
 set tabstop=4
 
+" auto and smart indent
+set autoindent
+set smartindent
+
 " Use space characters instead of tabs.
 set expandtab
 
